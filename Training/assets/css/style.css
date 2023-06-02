@@ -1,0 +1,109 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body {
+
+
+    background-color: white;
+}
+header{
+    display: flex; 
+    justify-content: space-between;
+    padding: 5px 50px 5px 50px;
+}
+header img{
+    height: 100px;
+    width: 100px;
+}
+header .navbar ul{
+    display: flex;
+    gap: 10px;
+    height: 100%;
+    align-items: center;
+}
+ul li{
+    list-style-type: none;
+}
+ul li a {
+    color: black;
+    font-weight: 8000;
+    text-decoration: none;
+}
+ul li a:hover {
+    color:purple;
+}
+button{
+    background-color: lime;
+    color: white;
+    border: 2px solid transparent;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    transition: all 0.3s;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: transparent;
+    color: lime;
+    border: 2px solid lime;
+}
+.hero{
+    height:100vh ;
+width:100dvw ;
+}
+.hero .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero .wrapper .wrapper-content{
+    flex-grow: 1;
+    flex-shrink:0;
+    flex-basis: 0;
+    color: rgb(0red, 2green, 72blue);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero .wrapper> .wrapper-content:first-of-type{
+    display: flex;
+    flex-direction: column;
+    gap: 10;
+    justify-content: start;
+    align-items: start;
+}
+.hero .wrapper>.wrapper-content:first-of-type h2{
+    font-size: 1.8rem;
+}
+.hero .wrapper .wrapper-content:first-of-type h4{
+    font: size 1.7rem;
+}
+.hero .wrapper> .wrapper-content:first-of-type p{
+    line: spacing 40px;
+    line-height: 30px;
+}
+.hero .wrapper> .wrapper-content:last-of-type{
+    height: 400px;
+    position: relative;
+    align-items: start;
+}
+.hero .wrapper> .wrapper-content:last-of-type img{
+    position:absolute;
+}
+.hero .wrapper> .wrapper-content:last-of-type img:first-of-type{
+    height: 350px;
+}
+.hero .wrapper> .wrapper-content:last-of-type img:last-of-type{
+    right: -10px;
+    bottom: -80px;
+    height: 200px;
+    width: 200px;
+}
+.hero .wrapper .wrapper-content h2{
+    text-transform: uppercase;
+    margin: 4px 0;
+}
+.hero .wrapper> .wrapper-content:first-of-type h4{
+    margin:2px;
+}
